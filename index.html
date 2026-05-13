@@ -6,27 +6,23 @@
     <title>Puri — Privacy Policy</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             background: #F5F6FC;
             color: #1A1B2E;
             line-height: 1.7;
         }
-        
         .header {
             background: linear-gradient(135deg, #4D51B1, #6A37D4);
             color: white;
             padding: 48px 24px 40px;
             text-align: center;
         }
-        
         .app-name {
             font-size: 32px;
             font-weight: 800;
             letter-spacing: -1px;
         }
-        
         .app-name span {
             font-size: 18px;
             opacity: 0.7;
@@ -34,7 +30,6 @@
             display: block;
             margin-top: 4px;
         }
-        
         .badge {
             display: inline-block;
             background: rgba(255,255,255,0.15);
@@ -43,20 +38,17 @@
             font-size: 13px;
             margin-top: 16px;
         }
-        
         .container {
             max-width: 680px;
             margin: 0 auto;
             padding: 40px 24px 80px;
         }
-        
         .updated {
             text-align: center;
             color: #6B7280;
             font-size: 14px;
             margin-bottom: 40px;
         }
-        
         .section {
             background: white;
             border-radius: 16px;
@@ -64,38 +56,12 @@
             margin-bottom: 16px;
             box-shadow: 0 1px 3px rgba(0,0,0,0.06);
         }
-        
-        .section-icon {
-            font-size: 24px;
-            margin-bottom: 12px;
-            display: block;
-        }
-        
-        h2 {
-            font-size: 18px;
-            font-weight: 700;
-            color: #4D51B1;
-            margin-bottom: 12px;
-        }
-        
-        p {
-            color: #374151;
-            font-size: 15px;
-            margin-bottom: 12px;
-        }
-        
+        .section-icon { font-size: 24px; margin-bottom: 12px; display: block; }
+        h2 { font-size: 18px; font-weight: 700; color: #4D51B1; margin-bottom: 12px; }
+        p { color: #374151; font-size: 15px; margin-bottom: 12px; }
         p:last-child { margin-bottom: 0; }
-        
-        ul {
-            color: #374151;
-            font-size: 15px;
-            padding-left: 20px;
-        }
-        
-        ul li {
-            margin-bottom: 8px;
-        }
-        
+        ul { color: #374151; font-size: 15px; padding-left: 20px; }
+        ul li { margin-bottom: 8px; }
         .highlight {
             background: #EEF2FF;
             border-left: 3px solid #4D51B1;
@@ -105,16 +71,8 @@
             font-size: 15px;
             color: #2D3748;
         }
-        
-        a {
-            color: #4D51B1;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
+        a { color: #4D51B1; text-decoration: none; }
+        a:hover { text-decoration: underline; }
         .footer {
             text-align: center;
             padding: 40px 24px;
@@ -125,104 +83,126 @@
 </head>
 <body>
 
-    <div class="header">
-        <div class="app-name">
-            Puri (풀이)
-            <span>Daily Life Solver for Foreigners in Korea</span>
-        </div>
-        <div class="badge">Privacy Policy</div>
+<div class="header">
+    <div class="app-name">
+        Puri (풀이)
+        <span>Daily Life Solver for Foreigners in Korea</span>
+    </div>
+    <div class="badge">Privacy Policy</div>
+</div>
+
+<div class="container">
+
+    <p class="updated">Last updated: May 2026</p>
+
+    <div class="highlight">
+        🔒 Puri does not sell your personal information. Your solve history and saved guides live on your device only and are never uploaded to Puri's servers.
     </div>
 
-    <div class="container">
-        
-        <p class="updated">Last updated: April 2026</p>
-
-        <div class="highlight">
-            🔒 Puri does not collect, store, or share your personal information on any server. All your data lives on your device only.
-        </div>
-
-        <div class="section">
-            <span class="section-icon">📱</span>
-            <h2>What data Puri stores</h2>
-            <p>Puri stores the following data <strong>locally on your device only</strong>:</p>
-            <ul>
-                <li>Your solve history — photos and text queries you have submitted</li>
-                <li>Guides you have saved</li>
-                <li>App preferences (language settings, first launch status)</li>
-            </ul>
-            <p>This data is never transmitted to Puri's servers because Puri has no servers. All storage uses Android's local Room database and DataStore.</p>
-            <p>When you uninstall Puri, all this data is deleted permanently.</p>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">📷</span>
-            <h2>Camera and photos</h2>
-            <p>Puri requests camera permission to allow you to take photos of confusing Korean situations for analysis.</p>
-            <p>When you capture or select a photo:</p>
-            <ul>
-                <li>The image is sent to Google's Gemini AI API for analysis</li>
-                <li>The image is stored locally in your solve history if you keep it</li>
-                <li>The image is never stored on any server operated by Puri</li>
-            </ul>
-            <p>You can clear your solve history at any time from the Profile screen.</p>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">🤖</span>
-            <h2>Google Gemini AI</h2>
-            <p>Puri uses Google's Gemini AI service to analyze photos and text queries. When you submit a solve request, your image or text is sent to Google's servers for processing.</p>
-            <p>Google's data handling is governed by their privacy policy:</p>
-            <p><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
-            <p>Google Gemini API terms of service:</p>
-            <p><a href="https://ai.google.dev/terms">ai.google.dev/terms</a></p>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">🔐</span>
-            <h2>Permissions</h2>
-            <ul>
-                <li><strong>Camera</strong> — Used only when you choose to capture a photo for solving. Not used in the background.</li>
-                <li><strong>Internet</strong> — Required to connect to Google Gemini AI for photo and text analysis.</li>
-                <li><strong>Vibration</strong> — Used for haptic feedback when you take a photo. No data involved.</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">👤</span>
-            <h2>No account required</h2>
-            <p>Puri does not require you to create an account, provide an email address, or log in. There is no user authentication, no user profiles, and no tracking of individual users.</p>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">🍪</span>
-            <h2>Cookies and analytics</h2>
-            <p>Puri does not use cookies. Puri does not use any third-party analytics services (no Firebase Analytics, no Crashlytics, no tracking SDKs in V1).</p>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">👶</span>
-            <h2>Children's privacy</h2>
-            <p>Puri is not directed at children under the age of 13. We do not knowingly collect any personal information from children.</p>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">📝</span>
-            <h2>Changes to this policy</h2>
-            <p>If this privacy policy changes, the updated version will be posted at this URL with a revised "last updated" date. Significant changes will be noted in the app.</p>
-        </div>
-
-        <div class="section">
-            <span class="section-icon">✉️</span>
-            <h2>Contact</h2>
-            <p>Questions about this privacy policy:</p>
-            <p><a href="mailto:dev.puri.android@gmail.com">dev.puri.android@gmail.com</a></p>
-        </div>
-
+    <div class="section">
+        <span class="section-icon">📱</span>
+        <h2>What data Puri stores locally</h2>
+        <p>Puri stores the following data <strong>locally on your device only</strong>:</p>
+        <ul>
+            <li>Your solve history — photos and text queries you have submitted</li>
+            <li>Guides you have saved</li>
+            <li>App preferences (first launch status, daily usage counters)</li>
+        </ul>
+        <p>This data is never transmitted to Puri's servers. All storage uses Android's local Room database and DataStore.</p>
+        <p>When you uninstall Puri, all locally stored data is deleted permanently.</p>
     </div>
 
-    <div class="footer">
-        Puri (풀이) &nbsp;·&nbsp; Made for foreigners in South Korea
+    <div class="section">
+        <span class="section-icon">📷</span>
+        <h2>Camera and photos</h2>
+        <p>Puri requests camera permission to allow you to photograph confusing Korean situations for AI analysis.</p>
+        <p>When you capture or select a photo:</p>
+        <ul>
+            <li>The image is sent to Google's Gemini AI API for analysis</li>
+            <li>A compressed version is stored locally in your solve history</li>
+            <li>The image is never stored on any server operated by Puri</li>
+        </ul>
+        <p>You can clear your solve history at any time from the Profile screen.</p>
     </div>
+
+    <div class="section">
+        <span class="section-icon">🤖</span>
+        <h2>Google Gemini AI</h2>
+        <p>Puri uses Google's Gemini AI service to analyze photos and answer text questions. When you submit a request, your image or text is sent to Google's servers for processing.</p>
+        <p>Google's data handling is governed by their privacy policy:<br>
+        <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
+        <p>Google Gemini API terms of service:<br>
+        <a href="https://ai.google.dev/terms">ai.google.dev/terms</a></p>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">📊</span>
+        <h2>Analytics and crash reporting</h2>
+        <p>Puri uses the following Firebase services operated by Google:</p>
+        <ul>
+            <li><strong>Firebase Analytics</strong> — collects anonymous usage statistics such as which features are used and how often. This data is aggregated and cannot identify individual users. No personal information is included.</li>
+            <li><strong>Firebase Crashlytics</strong> — collects crash reports to help identify and fix bugs. Reports include device type, Android version, and the state of the app at the time of the crash. No personal information is included.</li>
+        </ul>
+        <p>These services are governed by Google's privacy policy:<br>
+        <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></p>
+        <p>You can opt out of analytics collection by uninstalling the app.</p>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">👤</span>
+        <h2>Anonymous authentication</h2>
+        <p>Puri uses Firebase Anonymous Authentication to assign a random identifier to your app installation. This identifier is used to maintain your session and will be used to link your data to an account if you choose to create one in a future version.</p>
+        <p>This identifier does not include your name, email address, or any personal information. It is not used for tracking or advertising purposes.</p>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">🔐</span>
+        <h2>Permissions</h2>
+        <ul>
+            <li><strong>Camera</strong> — Used only when you choose to capture a photo for solving. Never used in the background.</li>
+            <li><strong>Internet</strong> — Required to connect to Google Gemini AI for analysis.</li>
+            <li><strong>Vibration</strong> — Used for haptic feedback when you take a photo. No data involved.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">🍪</span>
+        <h2>Cookies</h2>
+        <p>Puri does not use cookies. The app does not contain any advertising networks or third-party tracking beyond the Firebase services described above.</p>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">👶</span>
+        <h2>Children's privacy</h2>
+        <p>Puri is not directed at children under the age of 13. We do not knowingly collect any personal information from children. If you believe a child has provided personal information, please contact us.</p>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">🗑️</span>
+        <h2>Deleting your data</h2>
+        <p>All locally stored data (solve history, saved guides) can be deleted at any time from the Profile screen in the app, or by uninstalling Puri.</p>
+        <p>Anonymous analytics data is aggregated and cannot be individually deleted as it is not linked to any identifiable user.</p>
+        <p>To request deletion of your anonymous Firebase session, contact us at the email below and include your request. We will process it within 30 days.</p>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">📝</span>
+        <h2>Changes to this policy</h2>
+        <p>If this privacy policy changes materially, the updated version will be posted at this URL with a revised "last updated" date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+    </div>
+
+    <div class="section">
+        <span class="section-icon">✉️</span>
+        <h2>Contact</h2>
+        <p>Questions about this privacy policy or data requests:</p>
+        <p><a href="mailto:dev.puri.android@gmail.com">dev.puri.android@gmail.com</a></p>
+    </div>
+
+</div>
+
+<div class="footer">
+    Puri (풀이) &nbsp;·&nbsp; Made for foreigners in South Korea
+</div>
 
 </body>
 </html>
